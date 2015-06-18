@@ -1,0 +1,5 @@
+rm -rf ./build
+mkdir ./build
+node index.js $1 | /usr/local/opt/llvm/bin/llvm-as -o ./build/output.bc
+/usr/local/opt/llvm/bin/llc --filetype=obj ./build/output.bc
+gcc -o out ./build/output.o
