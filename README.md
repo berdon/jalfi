@@ -15,6 +15,6 @@ int main() {
 ##### Compiling & Running
 ```bash
 $ ./jalfi HelloWorld.jf
-$ ./out
+$ ./HelloWorld
 Hello World
 ```
