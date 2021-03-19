@@ -1,5 +1,5 @@
 # jalfi
-Compiler (stupid and minimal) written using the Sif tokenizer/lexer.
+Compiler (stupid and minimal) written using the [Sif](https://github.com/berdon/sif) tokenizer/lexer.
 
 ##### Dependencies
 Jalfi compiles down to LLVM IR then uses GCC for linking.
