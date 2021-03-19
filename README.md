@@ -1,5 +1,5 @@
 # jalfi
-Compiler written using the Sif tokenizer/lexer.
+Compiler (stupid and minimal) written using the Sif tokenizer/lexer.
 
 ##### Dependencies
 Jalfi compiles down to LLVM IR then uses GCC for linking.
@@ -7,7 +7,7 @@ Jalfi compiles down to LLVM IR then uses GCC for linking.
 **HelloWorld.jf**
 ```jalfi
 int main() {
-  println("Hello World");
+  print("Hello World");
   return 0;
 }
 ```
