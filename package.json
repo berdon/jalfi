@@ -1,0 +1,29 @@
+{
+  "name": "jalfi",
+  "version": "1.0.0",
+  "description": "Language",
+  "main": "jalfi",
+  "dependencies": {
+    "eyes": "^0.1.8",
+    "ms": "^2.1.2",
+    "sif-ts": "^1.0.2",
+    "sprintf-js": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.32",
+    "debug": "^4.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berdon/jalfi.git"
+  },
+  "author": "Austin Hanson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/berdon/jalfi/issues"
+  },
+  "homepage": "https://github.com/berdon/jalfi#readme"
+}
